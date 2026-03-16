@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+    <p id="calculator"></p>
+
+    <button class="clear" onclick="clear1()">C</button>
+
+    <button onclick="setValue(this)">0</button> 
+    <button class="operator" onclick="setValue(this)">+</button> <br> 
+    <button onclick="setValue(this)">1</button>
+    <button onclick="setValue(this)">2</button>
+    <button onclick="setValue(this)">3</button> 
+    <button class="operator" onclick="setValue(this)">-</button> <br>
+    <button onclick="setValue(this)">4</button>
+    <button onclick="setValue(this)">5</button>
+    <button onclick="setValue(this)">6</button> 
+    <button class="operator" onclick="setValue(this)">*</button> <br>
+    <button onclick="setValue(this)">7</button>
+    <button onclick="setValue(this)">8</button>
+    <button onclick="setValue(this)">9</button> 
+    
+    <button class="operator" onclick="setValue(this)">/</button> 
+    <button class="ans" onclick="equal()">=</button> 
+    <button onclick="setValue(this)">.</button> 
+
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

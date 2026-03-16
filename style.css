@@ -1,0 +1,54 @@
+ body{
+        
+            height: 10vh;
+            background-color: rgb(14, 13, 13);
+        }
+        .box{
+            margin-left: 500px;
+            margin-top: 150px;
+            border: 2px solid white;
+            border: 2px solid black;
+            width: 300px;
+            padding: 20px;
+            padding-left: 35px;
+            background-color: white;
+            border-radius: 30px;
+             
+        }
+        button{
+            padding: 8px;
+            margin: 5px;
+            height: 60px; width: 60px;
+            background-color: black; color: white;
+            font-family: cursive; border: 2px solid black;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+        button:hover{
+            background-color: rgb(100, 99, 99);
+        }
+        p{
+            height: 80px; width: 280px;
+            border: 2px solid black;
+            font-family: cursive;
+            font-size: 50px;
+            background-color: gray;
+            overflow: hidden;
+        
+            
+        }
+        .clear{
+            background-color: red; width: 135px;
+        }
+        .clear:hover {
+            background-color: rgb(189, 18, 75);
+        }
+        .ans{
+            width: 210px;
+        }
+        .operator{
+            background-color: green;
+        }
+        .operator:hover{
+            background-color: rgb(128, 193, 128);
+        }
